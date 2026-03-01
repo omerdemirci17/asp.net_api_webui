@@ -1,0 +1,40 @@
+﻿@model CreateContactDto
+@{
+    ViewData["Title"] = "Create Contact Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form method="post" asp-action="CreateContact" asp-controller="Contact" asp-area="Admin">
+    <input type="hidden" asp-for="ContactId" class="form-control" />
+
+    <label>Map URL</label>
+    <input type="text" asp-for="MapUrl" class="form-control" />
+    <br />
+
+    <label>Address</label>
+    <input type="text" asp-for="Adress" class="form-control" />
+    <br />
+
+    <label>Phone</label>
+    <input type="text" asp-for="Phone" class="form-control" />
+    <br />
+
+    <label>Email</label>
+    <input type="email" asp-for="Email" class="form-control" />
+    <br />
+
+    <button type="submit" class="btn btn-outline-primary">Save</button>
+</form>

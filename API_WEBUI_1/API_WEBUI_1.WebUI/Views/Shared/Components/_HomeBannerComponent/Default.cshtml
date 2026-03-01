@@ -1,0 +1,17 @@
+﻿@model List<ResultBannerDTO>
+
+<section id="hero" class="hero section dark-background">
+    @foreach (var item in Model)
+    {
+        <img src="@item.ImageUrl" alt="" data-aos="fade-in">
+
+        <div class="container d-flex flex-column align-items-center">
+            <h2 data-aos="fade-up" data-aos-delay="100">@item.Title.</h2>
+            <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+                <a asp-action="SignIn" asp-controller="Login" style="margin-right: 25px;" class="btn-get-started">Log In</a>
+                <a asp-action="Signup" asp-controller="Register" class="btn-get-started">Sign Up</a>
+            </div>
+                
+        </div>
+    }
+</section>

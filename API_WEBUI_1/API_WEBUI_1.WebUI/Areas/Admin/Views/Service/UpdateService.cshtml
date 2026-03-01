@@ -1,0 +1,28 @@
+﻿@model UpdateServiceDTO
+@{
+    ViewData["Title"] = "Update Services Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+<form method="post" asp-action="UpdateServices" asp-controller="Services" asp-area="Admin">
+    <input type="hidden" asp-for="ServiceID" />
+
+    <label>Icon</label>
+    <input type="text" asp-for="Icon" class="form-control" />
+    <br />
+
+    <label>Title</label>
+    <input type="text" asp-for="Title" class="form-control" />
+    <br />
+
+    <label>Description</label>
+    <textarea asp-for="Description" class="form-control"></textarea>
+    <br />
+
+    <label>Service Category ID</label>
+    <input type="number" asp-for="ServiceCategoryID" class="form-control" />
+    <br />
+
+    <button class="btn btn-outline-primary">Save</button>
+</form>

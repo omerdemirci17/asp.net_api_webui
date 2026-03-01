@@ -1,0 +1,69 @@
+﻿using API_WEBUI_1.Entity.Entities;
+using API_WEBUI_1.WebUI.DTOs.UserDTOs;
+using API_WEBUI_1.WebUI.Services.UserServices;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Build.Framework;
+using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol.Core.Types;
+
+namespace API_WEBUI_1.WebUI.Areas.Admin.Controllers
+{
+    [Authorize(Roles = "Admin")]
+    [Area("Admin")]
+    public class RoleAssignController(IUserService _userService, UserManager<AppUser> _userManager, RoleManager<AppRole> _roleManager) : Controller
+    {
+        public async Task<IActionResult> Index()
+        {
+            var values = await _userService.GetAllUsersAsync();
+            return View(values);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> AssignRole(int id)
+        {
+            var user = await _userService.GetUserById(id);
+            TempData["userId"] = user.Id;
+
+            var roles = await _roleManager.Roles.ToListAsync();
+
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            List<AssignRoleDTO> assignRoleList = new List<AssignRoleDTO>();
+            foreach (var role in roles)
+            {
+                var assignRole = new AssignRoleDTO();
+                assignRole.RoleId = role.Id;
+                assignRole.RoleName = role.Name;
+                assignRole.RoleExist = userRoles.Contains(role.Name);
+
+                assignRoleList.Add(assignRole);
+            }
+            return View(assignRoleList);
+        }
+        [HttpPost]
+        public async Task<IActionResult> AssignRole(List<AssignRoleDTO> assignRoleList)
+        {
+            int userId = (int)TempData["userId"];
+
+            var user = await _userService.GetUserById(userId);
+
+            foreach (var item in assignRoleList)
+            {
+                if (item.RoleExist)
+                {
+                    await _userManager.AddToRoleAsync(user, item.RoleName);
+                }
+                else
+                {
+                    await _userManager.RemoveFromRoleAsync(user, item.RoleName);
+                }
+
+            }
+            return RedirectToAction("Index");
+        }
+
+
+    }
+}

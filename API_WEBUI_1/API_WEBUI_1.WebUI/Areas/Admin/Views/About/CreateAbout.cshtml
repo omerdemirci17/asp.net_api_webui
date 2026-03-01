@@ -1,0 +1,52 @@
+﻿@model CreateAboutDTO
+@{
+    ViewData["Title"] = "Create About Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form method="post" asp-action="CreateAbout" asp-controller="About" asp-area="Admin">
+    <input type="hidden" asp-for="AboutId" class="form-control" />
+
+    <label>Description</label>
+    <textarea asp-for="Description" class="form-control"></textarea>
+    <br />
+
+    <label>Image Url 1</label>
+    <input type="text" asp-for="ImageUrl1" class="form-control" />
+    <br />
+
+    <label>Image Url 2</label>
+    <input type="text" asp-for="ImageUrl2" class="form-control" />
+    <br />
+
+    <label>Item 1</label>
+    <input type="text" asp-for="Item1" class="form-control" />
+    <br />
+
+    <label>Item 2</label>
+    <input type="text" asp-for="Item2" class="form-control" />
+    <br />
+
+    <label>Item 3</label>
+    <input type="text" asp-for="Item3" class="form-control" />
+    <br />
+
+    <label>Item 4</label>
+    <input type="text" asp-for="Item4" class="form-control" />
+    <br />
+
+    <button type="submit" class="btn btn-outline-primary">Save</button>
+</form>

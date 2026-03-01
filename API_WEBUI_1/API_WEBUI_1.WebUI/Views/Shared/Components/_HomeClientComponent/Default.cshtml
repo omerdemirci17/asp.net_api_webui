@@ -1,0 +1,18 @@
+﻿
+@model List<ResultClientDTO>
+<section id="clients" class="clients section light-background">
+
+    <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+            @foreach (var item in Model)
+            {
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="@item.ImageUrl" class="img-fluid" alt="">
+            </div><!-- End Client Item-->
+            }
+        </div>
+
+    </div>
+
+</section>

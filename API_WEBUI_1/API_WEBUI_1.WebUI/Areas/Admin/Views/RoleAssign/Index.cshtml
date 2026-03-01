@@ -1,0 +1,30 @@
+﻿@model List<AppUser> 
+@{
+    ViewData["Title"] = "User List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>User First Name Last Name</th>
+            <th>UserName</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName @item.LastName</td>
+                <td>@item.UserName</td>
+                <td>
+                    <a asp-action="AssignRole" asp-controller="RoleAssign" asp-area="Admin" asp-route-id="@item.Id" class="btn btn-outline-info">Assign Role</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

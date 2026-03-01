@@ -1,0 +1,10 @@
+﻿@model List<ResultSocialMediaDTO>
+
+
+<div class="social-links d-flex mt-4">
+
+@foreach (var item in Model)
+    {
+        <a href="@item.Url"><i class="@item.Icon"></i></a>
+    }
+</div>

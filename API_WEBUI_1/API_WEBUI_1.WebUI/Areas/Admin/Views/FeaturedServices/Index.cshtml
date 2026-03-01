@@ -1,0 +1,40 @@
+﻿@model List<ResultFeaturedServicesDTO>
+
+@{
+    ViewData["Title"] = "Featured Services Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image Url</th>
+            <th>Service Category</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FeaturedServicesID</td>
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+                <td>@item.ImageUrl</td>
+                <td>@item.ServiceCategory?.Name</td>
+                <td>
+                    <button onclick="DeleteCheck('Admin', 'FeaturedServices', 'Delete', @item.FeaturedServicesID)" class="btn btn-outline-danger">Delete</button>
+                    <a asp-action="UpdateFeaturedServices" asp-controller="FeaturedServices" asp-area="Admin" asp-route-id="@item.FeaturedServicesID" class="btn btn-outline-info">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a asp-action="CreateFeaturedServices" asp-controller="FeaturedServices" asp-area="Admin" class="btn btn-outline-primary">Create New Featured Service</a>

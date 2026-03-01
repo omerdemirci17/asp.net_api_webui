@@ -1,0 +1,107 @@
+﻿@model UserRegisterDTO
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>User Register</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="~/matrix-admin-master/assets/images/favicon.png" />
+    <link rel="stylesheet" href="~/matrix-admin-master/dist/css/style.min.css" />
+    <link rel="stylesheet" href="~/matrix-admin-master/assets/libs/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="preloader">
+            <div class="lds-ripple">
+                <div class="lds-pos"></div>
+                <div class="lds-pos"></div>
+                
+            </div>
+        </div>
+
+        <div class="auth-wrapper d-flex no-block justify-content-center align-items-center bg-dark">
+            <div class="auth-box bg-dark border-top border-secondary">
+                <div>
+                    <div class="text-center p-t-20 p-b-20">
+                        <span class="db"><img src="~/Beyaz_LevisAls.png" alt="logo" /></span>
+                    </div>
+
+                    <form asp-action="Signup" method="post" class="form-horizontal m-t-20">
+                        <div class="row p-b-30">
+                            <div class="col-12">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-primary text-white"><i class="ti-user"></i></span>
+                                    </div>
+                                    <input asp-for="FirstName" class="form-control form-control-lg" placeholder="First Name" required />
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-warning text-white"><i class="ti-user"></i></span>
+                                    </div>
+                                    <input asp-for="LastName" class="form-control form-control-lg" placeholder="Last Name" required />
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-success text-white"><i class="ti-user"></i></span>
+                                    </div>
+                                    <input asp-for="UserName" class="form-control form-control-lg" placeholder="Username" required />
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-danger text-white"><i class="ti-email"></i></span>
+                                    </div>
+                                    <input asp-for="Email" class="form-control form-control-lg" placeholder="Email Address" required />
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-warning text-white"><i class="ti-pencil"></i></span>
+                                    </div>
+                                    <input asp-for="Password" class="form-control form-control-lg" placeholder="Password" type="password" required />
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-info text-white"><i class="ti-pencil"></i></span>
+                                    </div>
+                                    <input asp-for="ConfirmPassword" class="form-control form-control-lg" placeholder="Confirm Password" type="password" required />
+                                </div>
+
+                                <p class="text-danger">@Html.ValidationSummary()</p>
+                            </div>
+                        </div>
+
+                        <div class="row border-top border-secondary">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <div class="p-t-20">
+                                        <button class="btn btn-block btn-lg btn-info" type="submit" asp-action="SingIn" asp-Controller="Login">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/matrix-admin-master/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/matrix-admin-master/assets/libs/popper.js/dist/popper.min.js"></script>
+    <script src="/matrix-admin-master/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(".preloader").fadeOut();
+    </script>
+</body>
+</html>

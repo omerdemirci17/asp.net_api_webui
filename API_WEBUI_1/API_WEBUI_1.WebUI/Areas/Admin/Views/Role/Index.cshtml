@@ -1,0 +1,32 @@
+﻿@model List<ResultRoleDTO>
+@{
+    ViewData["Title"] = "Role Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Role Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>
+                    <button onclick="DeleteCheck('Admin', 'Role', 'Delete', @item.Id)" class="btn btn-outline-danger">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a asp-action="CreateRole" asp-controller="Role" asp-area="Admin" class="btn btn-outline-primary">Create New Role</a>

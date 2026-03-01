@@ -1,0 +1,32 @@
+﻿@model UpdateBlogDto
+@{
+    ViewData["Title"] = "Update Blog Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+<form method="post" asp-action="UpdateBlog" asp-controller="Blog" asp-area="Admin">
+    <input type="hidden" asp-for="BlogId" />
+
+    <label>Title</label>
+    <input type="text" asp-for="Title" class="form-control" />
+    <br />
+
+    <label>Content</label>
+    <textarea asp-for="Content" class="form-control"></textarea>
+    <br />
+
+    <label>Image Url</label>
+    <input type="text" asp-for="ImageUrl" class="form-control" />
+    <br />
+
+    <label>Blog Date</label>
+    <input type="date" asp-for="BlogDate" class="form-control" />
+    <br />
+
+    <label>Blog Category ID</label>
+    <input type="number" asp-for="BlogCategoryId" class="form-control" />
+    <br />
+
+    <button class="btn btn-outline-primary">Save</button>
+</form>

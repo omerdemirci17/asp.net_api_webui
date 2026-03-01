@@ -1,0 +1,42 @@
+﻿@model List<ResultBlogDto>
+
+@{
+    ViewData["Title"] = "Blog Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Image Url</th>
+            <th>Blog Date</th>
+            <th>Category</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BlogId</td>
+                <td>@item.Title</td>
+                <td>@item.Content</td>
+                <td>@item.ImageUrl</td>
+                <td>@item.BlogDate.ToShortDateString()</td>
+                <td>@item.BlogCategoryId</td>
+                <td>
+                    <button onclick="DeleteCheck('Admin', 'Blog', 'Delete', @item.BlogId)" class="btn btn-outline-danger">Delete</button>
+                    <a asp-action="UpdateBlog" asp-controller="Blog" asp-area="Admin" asp-route-id="@item.BlogId" class="btn btn-outline-info">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a asp-action="CreateBlog" asp-controller="Blog" asp-area="Admin" class="btn btn-outline-primary">Create New Blog</a>

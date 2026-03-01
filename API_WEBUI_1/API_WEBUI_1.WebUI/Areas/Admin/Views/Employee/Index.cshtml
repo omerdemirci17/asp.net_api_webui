@@ -1,0 +1,50 @@
+﻿@model List<ResultEmployeeDTO>
+@{
+    ViewData["Title"] = "Create Employee Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    int count = 0;
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <tr>
+        <th>#</th>
+        <th>Image Url</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Birth Date</th>
+        <th>Phone Number</th>
+        <th>Address</th>
+        <th>Department ID</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    count++;
+    <tr>
+        
+        <th>@item.EmployeeId</th>
+        <th>@item.ImageUrl</th>
+        <td>@item.FirstName</td>
+        <td>@item.LastName</td>
+        <td>@item.Email</td>
+        <td>@item.BirthDate.ToShortDateString()</td>
+        <td>@item.PhoneNumber</td>
+        <td>@item.Address</td>
+        <td>@item.DepartmentId</td>
+        <td>
+                <button onclick="DeleteCheck('Admin', 'Employee', 'Delete', @item.EmployeeId)" class="btn btn-outline-danger">Delete</button>
+                <a asp-action="UpdateEmployee" asp-controller="Employee" asp-area="Admin" asp-route-id="@item.EmployeeId" class="btn btn-outline-info">Update</a>
+        </td>
+    </tr>
+}
+</table>
+
+<br/>
+<a asp-action="CreateEmployee" asp-controller="Employee" asp-area="Admin" class="btn btn-outline-primary">Create New Employee</a>
+

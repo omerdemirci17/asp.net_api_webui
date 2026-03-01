@@ -1,0 +1,42 @@
+﻿@model List<ResultTestimonialDTO>
+
+@{
+    ViewData["Title"] = "Testimonial Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Title</th>
+            <th>Image</th>
+            <th>Comment</th>
+            <th>Star</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TestimonialId</td>
+                <td>@item.TestimonialName</td>
+                <td>@item.Title</td>
+                <td>@item.ImageUrl</td>
+                <td>@item.Comment</td>
+                <td>@item.Star</td>
+                <td>
+                    <button onclick="DeleteCheck('Admin', 'Testimonial', 'Delete', @item.TestimonialId)" class="btn btn-outline-danger">Delete</button>
+                    <a asp-action="UpdateTestimonial" asp-controller="Testimonial" asp-area="Admin" asp-route-id="@item.TestimonialId" class="btn btn-outline-info">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a asp-action="CreateTestimonial" asp-controller="Testimonial" asp-area="Admin" class="btn btn-outline-primary">Create New Testimonial</a>

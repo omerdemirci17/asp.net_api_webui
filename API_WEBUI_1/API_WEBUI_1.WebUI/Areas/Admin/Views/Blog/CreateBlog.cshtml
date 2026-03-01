@@ -1,0 +1,44 @@
+﻿@model CreateBlogDto
+@{
+    ViewData["Title"] = "Create Blog Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form method="post" asp-action="CreateBlog" asp-controller="Blog" asp-area="Admin">
+    <input type="hidden" asp-for="BlogId" class="form-control" />
+
+    <label>Title</label>
+    <input type="text" asp-for="Title" class="form-control" />
+    <br />
+
+    <label>Content</label>
+    <textarea asp-for="Content" class="form-control"></textarea>
+    <br />
+
+    <label>Image Url</label>
+    <input type="text" asp-for="ImageUrl" class="form-control" />
+    <br />
+
+    <label>Blog Date</label>
+    <input type="date" asp-for="BlogDate" class="form-control" />
+    <br />
+
+    <label>Blog Category Id</label>
+    <input type="number" asp-for="BlogCategoryId" class="form-control" />
+    <br />
+
+    <button type="submit" class="btn btn-outline-primary">Save</button>
+</form>

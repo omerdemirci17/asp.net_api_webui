@@ -1,0 +1,28 @@
+﻿@model CreateBlogCategoryDto
+@{
+    ViewData["Title"] = "Create Blog Category Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form method="post" asp-action="CreateBlogCategory" asp-controller="BlogCategory" asp-area="Admin">
+    <input type="hidden" asp-for="BlogCategoryId" class="form-control" />
+
+    <label>Name</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <br />
+
+    <button type="submit" class="btn btn-outline-primary">Save</button>
+</form>

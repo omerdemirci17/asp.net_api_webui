@@ -1,0 +1,36 @@
+﻿@model List<ResultBannerDTO>
+
+@{
+    ViewData["Title"] = "Banner Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Image Url</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BannerID</td>
+                <td>@item.Title</td>
+                <td>@item.ImageUrl</td>
+                <td>
+                    <button onclick="DeleteCheck('Admin', 'Banner', 'Delete', @item.BannerID)" class="btn btn-outline-danger">Delete</button>
+                    <a asp-action="UpdateBanner" asp-controller="Banner" asp-area="Admin" asp-route-id="@item.BannerID" class="btn btn-outline-info">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a asp-action="CreateBanner" asp-controller="Banner" asp-area="Admin" class="btn btn-outline-primary">Create New Banner</a>

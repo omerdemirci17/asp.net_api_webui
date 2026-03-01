@@ -1,0 +1,15 @@
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\bin\Debug\net8.0\API_WEBUI_1.DTO.deps.json
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\bin\Debug\net8.0\API_WEBUI_1.DTO.dll
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\bin\Debug\net8.0\API_WEBUI_1.DTO.pdb
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\bin\Debug\net8.0\API_WEBUI_1.Entity.dll
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\bin\Debug\net8.0\API_WEBUI_1.Entity.pdb
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\API_WEBUI_1.DTO.csproj.AssemblyReference.cache
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\API_WEBUI_1.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\API_WEBUI_1.DTO.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\API_WEBUI_1.DTO.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\API_WEBUI_1.DTO.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\API_WEBU.12C5F6A7.Up2Date
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\API_WEBUI_1.DTO.dll
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\refint\API_WEBUI_1.DTO.dll
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\API_WEBUI_1.DTO.pdb
+C:\Users\MONSTER\source\repos\API_WEBUI_1\API_WEBUI_1.DTO\obj\Debug\net8.0\ref\API_WEBUI_1.DTO.dll

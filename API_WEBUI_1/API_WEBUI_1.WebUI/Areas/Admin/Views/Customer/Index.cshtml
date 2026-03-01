@@ -1,0 +1,44 @@
+﻿@model List<ResultCustomerDTO>
+@{
+    ViewData["Title"] = "Customer Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{
+    int count = 0;
+}
+
+<title>@ViewData["Title"]</title>
+<table class="table table-hover">
+    <tr>
+        <th>#</th>
+        <th>Customer First Name</th>
+        <th>Customer Last Name</th>
+        <th>Customer Address</th>
+        <th>Customer Phone Number</th>
+        <th>Customer Registation Date</th>
+        <th></th>
+    
+    </tr>
+
+@foreach (var item in Model)
+{
+    count++;
+    <tr>
+        <th>@item.CustomerId</th>
+        <th>@item.FirstName</th>
+        <th>@item.LastName</th>
+        <th>@item.Address</th>
+        <th>@item.PhoneNumber</th>
+        <th>@item.RegistrationDate.ToShortDateString()</th>
+            <td>
+                <button onclick="DeleteCheck('Admin', 'Customer', 'Delete', @item.CustomerId)" class="btn btn-outline-danger">Delete</button>
+                <a asp-action="UpdateCustomer" asp-controller="Customer" asp-area="Admin" asp-route-id="@item.CustomerId" class="btn btn-outline-info">Update</a>
+            </td>
+    </tr>
+}
+</table>
+
+<br/>
+<a asp-action= "CreateCustomer" asp-controller="Customer" asp-area="Admin" class="btn btn-outline-primary">Create New Customer</a>
+

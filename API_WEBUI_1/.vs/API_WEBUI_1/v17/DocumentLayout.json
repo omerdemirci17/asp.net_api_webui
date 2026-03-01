@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5BFDAA-0396-436F-B5BF-980DC2930047}|API_WEBUI_1.API\\API_WEBUI_1.API.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.api\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5BFDAA-0396-436F-B5BF-980DC2930047}|API_WEBUI_1.API\\API_WEBUI_1.API.csproj|solutionrelative:api_webui_1.api\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D09A82A-73C2-4FFF-B4B6-C814B5AF6C2C}|API_WEBUI_1.DTO\\API_WEBUI_1.DTO.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.dto\\dtos\\aboutdtos\\createaboutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D09A82A-73C2-4FFF-B4B6-C814B5AF6C2C}|API_WEBUI_1.DTO\\API_WEBUI_1.DTO.csproj|solutionrelative:api_webui_1.dto\\dtos\\aboutdtos\\createaboutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3320C6C1-FBBA-417F-8FFF-B95652CB1447}|API_WEBUI_1.Entity\\API_WEBUI_1.Entity.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.entity\\entities\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3320C6C1-FBBA-417F-8FFF-B95652CB1447}|API_WEBUI_1.Entity\\API_WEBUI_1.Entity.csproj|solutionrelative:api_webui_1.entity\\entities\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\viewcomponents\\home\\_homeaboutcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\viewcomponents\\home\\_homeaboutcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5BFDAA-0396-436F-B5BF-980DC2930047}|API_WEBUI_1.API\\API_WEBUI_1.API.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E5BFDAA-0396-436F-B5BF-980DC2930047}|API_WEBUI_1.API\\API_WEBUI_1.API.csproj|solutionrelative:api_webui_1.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5BFDAA-0396-436F-B5BF-980DC2930047}|API_WEBUI_1.API\\API_WEBUI_1.API.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5BFDAA-0396-436F-B5BF-980DC2930047}|API_WEBUI_1.API\\API_WEBUI_1.API.csproj|solutionrelative:api_webui_1.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.dataaccess\\context\\api_webui_1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|solutionrelative:api_webui_1.dataaccess\\context\\api_webui_1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.dataaccess\\abstract\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|solutionrelative:api_webui_1.dataaccess\\abstract\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.dataaccess\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|solutionrelative:api_webui_1.dataaccess\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\areas\\admin\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\areas\\admin\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\areas\\admin\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\areas\\admin\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\areas\\admin\\controllers\\subscribercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\areas\\admin\\controllers\\subscribercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\areas\\admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\areas\\admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\controllers\\uilayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\controllers\\uilayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.dataaccess\\context\\api_webui_1contextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|solutionrelative:api_webui_1.dataaccess\\context\\api_webui_1contextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.dataaccess\\api_webui_1.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B23F1EB2-07DA-4158-9C0F-47E73A5E10EF}|API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj|solutionrelative:api_webui_1.dataaccess\\api_webui_1.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36B1873-CDEB-44C9-843D-1C796D041DCC}|API_WEBUI_1.Bussiness\\API_WEBUI_1.Bussiness.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.bussiness\\concrete\\genericmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36B1873-CDEB-44C9-843D-1C796D041DCC}|API_WEBUI_1.Bussiness\\API_WEBUI_1.Bussiness.csproj|solutionrelative:api_webui_1.bussiness\\concrete\\genericmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36B1873-CDEB-44C9-843D-1C796D041DCC}|API_WEBUI_1.Bussiness\\API_WEBUI_1.Bussiness.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.bussiness\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36B1873-CDEB-44C9-843D-1C796D041DCC}|API_WEBUI_1.Bussiness\\API_WEBUI_1.Bussiness.csproj|solutionrelative:api_webui_1.bussiness\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\services\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\services\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\areas\\employee\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\areas\\employee\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\areas\\admin\\controllers\\blogcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\areas\\admin\\controllers\\blogcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\views\\shared\\components\\_homemessagecomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\views\\shared\\components\\_homemessagecomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\areas\\employee\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\areas\\employee\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|c:\\users\\monster\\source\\repos\\api_webui_1\\api_webui_1.webui\\views\\shared\\components\\_homebannercomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4878B68-8639-47BD-AF01-0F71D5638C65}|API_WEBUI_1.WebUI\\API_WEBUI_1.WebUI.csproj|solutionrelative:api_webui_1.webui\\views\\shared\\components\\_homebannercomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.API\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.API\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.API\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "API_WEBUI_1.API\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:18:47.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateAboutDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DTO\\DTOs\\AboutDTOs\\CreateAboutDTO.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.DTO\\DTOs\\AboutDTOs\\CreateAboutDTO.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DTO\\DTOs\\AboutDTOs\\CreateAboutDTO.cs",
+              "RelativeToolTip": "API_WEBUI_1.DTO\\DTOs\\AboutDTOs\\CreateAboutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:17:44.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.Entity\\Entities\\About.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.Entity\\Entities\\About.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.Entity\\Entities\\About.cs",
+              "RelativeToolTip": "API_WEBUI_1.Entity\\Entities\\About.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:17:29.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T13:12:07.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_HomeAboutComponent.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\ViewComponents\\Home\\_HomeAboutComponent.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\ViewComponents\\Home\\_HomeAboutComponent.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\ViewComponents\\Home\\_HomeAboutComponent.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\ViewComponents\\Home\\_HomeAboutComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:11:56.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.API\\appsettings.json",
+              "RelativeDocumentMoniker": "API_WEBUI_1.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.API\\appsettings.json",
+              "RelativeToolTip": "API_WEBUI_1.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T13:07:25.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.API\\Program.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.API\\Program.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.API\\Program.cs",
+              "RelativeToolTip": "API_WEBUI_1.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:07:21.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:04:25.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SubscriberController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\SubscriberController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\SubscriberController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\SubscriberController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\SubscriberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:04:24.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:04:23.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:04:23.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UILayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Controllers\\UILayoutController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Controllers\\UILayoutController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Controllers\\UILayoutController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Controllers\\UILayoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:04:17.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.DataAccess\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "API_WEBUI_1.DataAccess\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAApwC0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:59:57.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "API_WEBUI_1Context.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\Context\\API_WEBUI_1Context.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.DataAccess\\Context\\API_WEBUI_1Context.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\Context\\API_WEBUI_1Context.cs",
+              "RelativeToolTip": "API_WEBUI_1.DataAccess\\Context\\API_WEBUI_1Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:59:55.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "API_WEBUI_1ContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\Context\\API_WEBUI_1ContextFactory.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.DataAccess\\Context\\API_WEBUI_1ContextFactory.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\Context\\API_WEBUI_1ContextFactory.cs",
+              "RelativeToolTip": "API_WEBUI_1.DataAccess\\Context\\API_WEBUI_1ContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:59:52.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\Abstract\\IRepository.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.DataAccess\\Abstract\\IRepository.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\Abstract\\IRepository.cs",
+              "RelativeToolTip": "API_WEBUI_1.DataAccess\\Abstract\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:59:50.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "API_WEBUI_1.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj",
+              "RelativeDocumentMoniker": "API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj",
+              "RelativeToolTip": "API_WEBUI_1.DataAccess\\API_WEBUI_1.DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-23T13:59:44.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GenericManager.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.Bussiness\\Concrete\\GenericManager.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.Bussiness\\Concrete\\GenericManager.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.Bussiness\\Concrete\\GenericManager.cs",
+              "RelativeToolTip": "API_WEBUI_1.Bussiness\\Concrete\\GenericManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:59:33.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.Bussiness\\Abstract\\IGenericService.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.Bussiness\\Abstract\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.Bussiness\\Abstract\\IGenericService.cs",
+              "RelativeToolTip": "API_WEBUI_1.Bussiness\\Abstract\\IGenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:59:30.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Program.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T08:11:19.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Services\\UserServices\\UserService.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Services\\UserServices\\UserService.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Services\\UserServices\\UserService.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Services\\UserServices\\UserService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:03:28.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BlogCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\BlogCategoryController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\BlogCategoryController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\BlogCategoryController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Areas\\Admin\\Controllers\\BlogCategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:49:47.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Views\\Shared\\Components\\_HomeMessageComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Views\\Shared\\Components\\_HomeMessageComponent\\Default.cshtml",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Views\\Shared\\Components\\_HomeMessageComponent\\Default.cshtml",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Views\\Shared\\Components\\_HomeMessageComponent\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T12:47:49.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:34:05.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:34:00.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:33:59.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Views\\Shared\\Components\\_HomeBannerComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Views\\Shared\\Components\\_HomeBannerComponent\\Default.cshtml",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Views\\Shared\\Components\\_HomeBannerComponent\\Default.cshtml",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Views\\Shared\\Components\\_HomeBannerComponent\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T09:39:45.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Employee\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Areas\\Employee\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Employee\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Areas\\Employee\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T09:14:25.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Employee\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "API_WEBUI_1.WebUI\\Areas\\Employee\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\source\\repos\\API_WEBUI_1\\API_WEBUI_1.WebUI\\Areas\\Employee\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "API_WEBUI_1.WebUI\\Areas\\Employee\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:14:11.958Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+﻿@model List<ResultContactDTO>
+
+@{
+    ViewData["Title"] = "Contact Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Map Url</th>
+            <th>Address</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ContactId</td>
+                <td>@item.MapUrl</td>
+                <td>@item.Adress</td>
+                <td>@item.Phone</td>
+                <td>@item.Email</td>
+                <td>
+                    <button onclick="DeleteCheck('Admin', 'Contact', 'Delete', @item.ContactId)" class="btn btn-outline-danger">Delete</button>
+                    <a asp-action="UpdateContact" asp-controller="Contact" asp-area="Admin" asp-route-id="@item.ContactId" class="btn btn-outline-info">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a asp-action="CreateContact" asp-controller="Contact" asp-area="Admin" class="btn btn-outline-primary">Create New Contact</a>

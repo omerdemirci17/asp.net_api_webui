@@ -1,0 +1,38 @@
+﻿@model List<ResultDepartmentDTO>
+@{
+    ViewData["Title"] = "Department Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+   int count = 0;
+}
+
+<title>@ViewData["Title"]</title>
+<table class="table table-hover">
+    <thead>
+            <tr>
+                <th>#</th>
+                <th>Department Name</th> <!-- Name of the department -->
+                <th>Phone Number</th>     <!-- Contact phone number -->
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <td>@item.DepartmentId</td>
+                    <td>@item.Name</td>
+                    <td>@item.PhoneNumber</td>
+                    <td>
+                    <button onclick="DeleteCheck('Admin', 'Department', 'Delete', @item.DepartmentId)" class ="btn btn-outline-danger"   >Delete</button>
+                    <a asp-action="UpdateDepartment" asp-controller="Department" asp-area="Admin" asp-route-id="@item.DepartmentId" class="btn btn-outline-info">Update</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+<a asp-action="CreateDepartment" asp-controller="Department" asp-area="Admin" class="btn btn-outline-primary">Create New Department</a>

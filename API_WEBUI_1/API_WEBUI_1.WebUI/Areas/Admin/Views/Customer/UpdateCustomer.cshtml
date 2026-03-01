@@ -1,0 +1,31 @@
+﻿@model UpdateCustomerDTO
+@{
+    ViewData["Title"] = "Update Customer Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+<form method="post" asp-action="UpdateCustomer" asp-controller="Customer" asp-area="Admin">
+    <input type="hidden" asp-for="CustomerId" />
+    <label>First Name</label>
+    <input type="text" asp-for="FirstName" class="form-control" />
+    <br />
+
+    <label>Last Name</label>
+    <input type="text" asp-for="LastName" class="form-control" />
+    <br />
+
+    <label>Address</label>
+    <input type="text" asp-for="Address" class="form-control" />
+    <br />
+
+    <label>Phone Number</label>
+    <input type="text" asp-for="PhoneNumber" class="form-control" />
+    <br />
+
+    <label>Register Date</label>
+    <input type="date" asp-for="RegistrationDate" class="form-control" />
+    <br />
+
+    <button class="btn btn-outline-primary">Save</button>
+</form>

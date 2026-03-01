@@ -1,0 +1,32 @@
+﻿@model List<ResultClientDTO>
+@{
+    ViewData["Title"] = "Client Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<title>@ViewData["Title"]</title>
+
+<table class="table table-hover">
+    <tr>
+        <th>#</th>
+        <th>Client Name</th>
+        <th>Image URL</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ClientID</td>
+            <td>@item.ClientName</td>
+            <td>@item.ImageUrl</td>
+            <td>
+                <button onclick="DeleteCheck('Admin', 'Client', 'Delete', @item.ClientID)" class="btn btn-outline-danger">Delete</button>
+                <a asp-action="UpdateClient" asp-controller="Client" asp-area="Admin" asp-route-id="@item.ClientID" class="btn btn-outline-info">Update</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<br />
+<a asp-action="CreateClient" asp-controller="Client" asp-area="Admin" class="btn btn-outline-primary">Create New Client</a>
